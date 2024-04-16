@@ -1,0 +1,25 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "[markdown]": {
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 100
+  },
+  "vs-browser.url": "http://localhost:3000",
+  "workbench.editor.customLabels.enabled": true,
+  "workbench.editor.customLabels.patterns": {
+    "**/*.tsx": "${dirname(0)}/${filename}.${extname}",
+    "**/index.{ts,tsx}": "${dirname(0)}/index.${extname}"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "files.associations": {
+    "*.xml": "html",
+    "*.svg": "html"
+  },
+  "cSpell.words": ["unplugin"]
+}
